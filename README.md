@@ -22,7 +22,7 @@ body {
     margin: 0;
     font-family: 'Comic Neue', cursive;
     background: linear-gradient(0deg, var(--color-bg1), var(--color-bg2));
-    min-height: 100vh;
+    min-height: 150vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,13 +31,13 @@ body {
 /* Header */
 header {
     text-align: center;
-    margin: 20px;
+    margin: 70px;
     animation: wobble 3s infinite ease-in-out;
 }
 
 h1 {
     font-family: 'Bangers', cursive;
-    font-size: 4rem;
+    font-size: 15rem;
     margin: 0;
     transform: rotate(-2deg);
 }
@@ -45,9 +45,9 @@ h1 {
 .subtitle {
     font-family: 'Fredoka One', cursive;
     background: white;
-    padding: 5px 15px;
-    border-radius: 20px;
-    border: 4px solid var(--color-dark);
+    padding: 15px 50px;
+    border-radius: 70px;
+    border: 12px solid var(--color-dark);
     transform: rotate(2deg);
 }
 
@@ -56,7 +56,7 @@ h1 {
     display: flex;
     gap: 20px;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 1700px;
     width: 100%;
 }
 
@@ -66,8 +66,8 @@ h1 {
     border: 4px solid var(--color-dark);
     border-radius: 15px;
     padding: 20px;
-    width: 260px;
-    box-shadow: 8px 8px 0 var(--color-dark);
+    width: 300px;
+    box-shadow: 16px 16px 0 var(--color-dark);
 }
 
 button, select, input {
